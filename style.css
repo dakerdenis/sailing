@@ -2,35 +2,35 @@
     padding: 0;
     margin: 0;
     border: 0;
-  }
-  
-  *,
-  *:before,
-  *:after {
+}
+
+*,
+*:before,
+*:after {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-  }
-  
-  :focus,
-  :active {
+}
+
+:focus,
+:active {
     outline: none;
-  }
-  
-  a:focus,
-  a:active {
+}
+
+a:focus,
+a:active {
     outline: none;
-  }
-  
-  nav,
-  footer,
-  header,
-  aside {
+}
+
+nav,
+footer,
+header,
+aside {
     display: block;
-  }
-  
-  html,
-  body {
+}
+
+html,
+body {
     height: 100%;
     width: 100%;
     font-size: 100%;
@@ -40,68 +40,87 @@
     -moz-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
     font-family: "Montserrat", sans-serif;
-  }
-  
-  body::-webkit-scrollbar {
+}
+
+body::-webkit-scrollbar {
     width: 0;
-  }
-  
-  body.lock {
+}
+
+body.lock {
     overflow: hidden;
-  }
-  
-  input,
-  button,
-  textarea {
+}
+
+input,
+button,
+textarea {
     font-family: inherit;
-  }
-  
-  input::-ms-clear {
+}
+
+input::-ms-clear {
     display: none;
-  }
-  
-  button {
+}
+
+button {
     cursor: pointer;
-  }
-  
-  button::-ms-focus-inner {
+}
+
+button::-ms-focus-inner {
     padding: 0;
     border: 0;
-  }
-  
-  a,
-  a:visited {
+}
+
+a,
+a:visited {
     text-decoration: none;
-  }
-  
-  a:hover {
+}
+
+a:hover {
     text-decoration: none;
-  }
-  
-  ul li {
+}
+
+ul li {
     list-style: none;
-  }
-  
-  img {
+}
+
+img {
     vertical-align: top;
-  }
-  
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-size: inherit;
     font-weight: 400;
-  }
-  
-  
-  .main__wrapper {
+}
+
+
+.main__wrapper {
     min-height: 100vh;
     width: 100%;
-  
+
     position: relative;
     z-index: 500;
-  }
-  
+}
+
+
+/*******HEADER*********/
+
+.header{
+    width: 1600px;
+    margin: 0 auto;
+    height: 75px;
+    border-bottom: 1px solid rgba(255, 255, 255, .3);
+    position: fixed;
+    left: calc(50% - 800px);
+}
+
+
+/*******HOME*********/
+.home{
+    height: 100vh;
+    min-height: 700px;
+    background-color: #121730;
+}
