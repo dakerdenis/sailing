@@ -308,3 +308,150 @@ z-index: 200;
     opacity: 1; /* Make visible */
     transform: translateY(0); /* Slide into original position */
 }
+
+
+
+/****************about_us*********/
+.about_us {
+    width: 100%;
+    height: 420px;
+    background-color: #ebebeb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about_us__wrapper {
+    width: 1540px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+.about_us__image {
+    width: 785px;
+    height: 300px;
+    position: relative;
+}
+.about_us_circle {
+    position: absolute;
+    left: calc(50% - 150px);
+    width: 300px;
+    height: 300px;
+    background-color: #fff;
+    border-radius: 50%;
+    z-index: 200;
+}
+.abput_us__image-image {
+    z-index: 300;
+    position: absolute;
+    height: 300px;
+    width: 100%;
+    top: calc(50% - 75px);
+    left: 20px;
+}
+.abput_us__image-image img{
+    width: 90%;
+    object-fit: cover;
+
+}
+
+
+.about_us__desc {
+    width: 755px;
+}
+.about_us__name {
+    text-transform: uppercase;
+    font-size: 32px;
+    color: #121730;
+    font-weight: 800px;
+    margin-bottom: 9.5px;
+}
+.about_us__name-desc {
+    font-weight: 200;
+    opacity: .6;
+    text-transform: uppercase;
+    color: #121730;
+    margin-bottom: 50px;
+}
+.about_us__text {
+    color: #121730;
+    font-size: 19.2px;
+    font-weight: 400;
+    line-height: 35px;
+}
+.about_us__button {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.all__button__style a{
+    width: 244px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    background-color: #05c1eb;
+    background-image: linear-gradient(45deg, #3aa6f5, #21cff6);
+    color: #fff;
+    font-size: 16px;
+}
+
+/******buy sell with us*******/
+.buy_withus{
+    height: calc(460px + 75px + 75px);
+    width: 100%;
+    background-color: #fff;
+
+}
+.buysell_withus_wrapper {
+    width: 1540px;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.buysell__image {
+    width: 640px;
+    height: 460px;
+
+}
+.buysell__image img{
+    width: 100%;
+}
+.buysell__desc {
+    max-width: 853px;
+    margin-left: 30px;
+}
+.buysell__desc__name {
+    color: #121730;
+    font-size: 32px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.buysell__desc__desc {
+    color: #121730;
+    font-size: 1rem;
+    font-weight: 200;
+    letter-spacing: .1em;
+    opacity: .6;
+    margin-bottom: 25px;
+}
+.buysell__desc__text {
+    font-size: 1.2rem;
+    line-height: 1.8em;
+    color: #121730;
+    margin-bottom: 35px;
+}
+.buysell__desc__button {
+}
+.all__button__style {
+}
+.sell_withus{
+    margin-bottom: 50px;
+}
+.sell_withus .buysell_withus_wrapper{
+    flex-direction: row-reverse;
+}
