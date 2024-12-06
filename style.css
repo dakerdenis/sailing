@@ -703,6 +703,19 @@ z-index: 200;
     font-weight: 500;
     font-size: 11.2px;
 }
+.glide__arrow {
+    top: 89%;
+        box-shadow: 0 .25em .5em 0 rgba(0, 0, 0, .1);
+        color: #121730;
+}
+.glide__arrow--left {
+    left: 44%;
+}
+.glide__arrow--right {
+    right: 44%;
+}
+
+
   .glide__slide--active .glide__background-image{
     transform: scale(1.1);
     
