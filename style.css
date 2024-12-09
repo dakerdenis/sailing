@@ -1226,3 +1226,32 @@ z-index: 500;
 @media only screen and (max-width: 1480px) {
     
 }
+@media only screen and (max-width: 1390px) {
+    .header{
+        width: 1200px;
+        left: calc(50% - 600px);
+    }
+    .small__about__wrapper{
+        width: 1200px;
+    }
+    .buysell_withus_wrapper{
+        width: 1200px;
+    }
+    .gallery__photos__wrapper{
+        width: 1200px;
+        left: calc(50% - 600px);
+    }
+    .gallery__photos__wrapper a{
+        width: 250px;
+        height: 220px;
+    }
+    .clients__wrapper{
+        width: 1200px;
+    }
+    .about_us__wrapper{
+        width: 1200px;
+    }
+    .footer__wrapper{
+        width: 1200px;
+    }
+}
