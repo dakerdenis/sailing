@@ -546,6 +546,8 @@ h6 {
 
 .buysell__image img {
     width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .buysell__desc {
@@ -803,6 +805,7 @@ h6 {
 .gallery__photos__wrapper a img {
     width: 100%;
     height: 100%;
+    object-fit: cover;
 }
 
 .gallery__background {
